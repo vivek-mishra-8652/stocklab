@@ -4,7 +4,7 @@ import CandlestickChart from "../components/CandlestickChart";
 import IndicatorPanel from "../components/IndicatorPanel";
 import PredictionCard from "../components/PredictionCard";
 
-const API = "http://localhost:8000";
+const API = "https://stocklab-i1mw.onrender.com";
 const PERIODS = [
   { label: "1M", value: "1mo" },
   { label: "3M", value: "3mo" },
