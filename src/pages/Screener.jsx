@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://stocklab-i1mw.onrender.com";
 const DEFAULT_TICKERS = "AAPL,MSFT,GOOGL,AMZN,TSLA,META,NVDA,JPM,BAC,V,NFLX,AMD,INTC,UBER,DIS";
 
 export default function Screener({ onSelectTicker }) {
