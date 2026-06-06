@@ -3,7 +3,7 @@ import axios from "axios";
 import StatCard from "../components/StatCard";
 import CandlestickChart from "../components/CandlestickChart";
 
-const API = "http://localhost:8000";
+const API = "https://stocklab-i1mw.onrender.com";
 
 const CATEGORIES = {
   "🇺🇸 US Tech": ["AAPL","MSFT","GOOGL","TSLA","AMZN","NVDA","META","NFLX","AMD","INTC","ORCL","ADBE","CRM","UBER","SNAP"],
